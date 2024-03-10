@@ -5,19 +5,15 @@ using TMPro;
 
 public class testscript : MonoBehaviour
 {
-    public GameObject scene1, scene2, scene3;
-    public GameObject stats;
-    public TextMeshProUGUI sanityPoints;
+    public GameObject scene_1, scene_2, scene_3, scene_4, scene_5, scene_6, scene_7;
     //public int sanityPoints;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        scene1.SetActive(true);
-        scene2.SetActive(false);
-        scene2.SetActive(false);
-        stats.SetActive(false);
+        scene_1.SetActive(true);
+        
     }
 
     // Update is called once per frame
@@ -28,17 +24,40 @@ public class testscript : MonoBehaviour
 
     public void StartButton()
     {
-        scene1.SetActive(false);
-        scene2.SetActive(true);
-        scene3.SetActive(false);
-        stats.SetActive(true);
+        scene_1.SetActive(false);
+        scene_2.SetActive(true);
     }
 
-    public void LookAround()
+    public void LayDown()
     {
-        scene1.SetActive(false);
-        scene2.SetActive(false);
-        scene3.SetActive(true);
-        stats.SetActive(true);
+        scene_2.SetActive(false);
+        scene_3.SetActive(true);
+    }
+    public void SitGetUP()
+    {
+        scene_2.SetActive(false);
+        scene_3.SetActive(false);
+        scene_4.SetActive(true);
+    }
+
+    public void CheckDoor()
+    {
+        scene_4.SetActive(false);
+        scene_5.SetActive(true);
+    }
+
+    public void CheckChair()
+    {
+        scene_4.SetActive(false);
+        scene_5.SetActive(false);
+        scene_6.SetActive(true);
+    }
+
+    public void CheckLocker()
+    {
+        scene_4.SetActive(false);
+        scene_5.SetActive(false);
+        scene_6.SetActive(false);
+        scene_7.SetActive(true);
     }
 }
