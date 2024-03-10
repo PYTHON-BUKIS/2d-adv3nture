@@ -90,4 +90,16 @@ public class testscript : MonoBehaviour
         scene_8.SetActive(false);
         scene_10.SetActive(true);
     }
+
+    public void shootNo()
+    {
+        scene_10.SetActive(false);
+        scene_11.SetActive(true);
+    }
+
+    public void shootRats()
+    {
+        scene_10.SetActive(false);
+        scene_12.SetActive(true);
+    }
 }

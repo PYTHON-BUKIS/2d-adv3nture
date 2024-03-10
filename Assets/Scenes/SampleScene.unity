@@ -246,7 +246,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1610403117}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -489,7 +489,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ending 4/4
+  m_text: Ending 4/4 True Ending
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -650,13 +650,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1610403117}
+        m_TargetAssemblyTypeName: testscript, Assembly-CSharp
+        m_MethodName: doNothing
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -846,7 +846,7 @@ RectTransform:
   - {fileID: 1505867054}
   - {fileID: 2011686124}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1297,7 +1297,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 558976100}
+      - m_Target: {fileID: 1610403117}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: StartButton
         m_Mode: 1
@@ -1571,7 +1571,7 @@ GameObject:
   - component: {fileID: 329100203}
   - component: {fileID: 329100202}
   m_Layer: 5
-  m_Name: noDoor
+  m_Name: DontShoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1641,7 +1641,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 329100203}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1610403117}
+        m_TargetAssemblyTypeName: testscript, Assembly-CSharp
+        m_MethodName: shootNo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &329100203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1941,7 +1953,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1610403117}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: CheckDoor
         m_Mode: 1
@@ -2151,7 +2163,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1610403117}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: NotoDoor
         m_Mode: 1
@@ -2285,7 +2297,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1610403117}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: CheckLocker
         m_Mode: 1
@@ -2419,7 +2431,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1610403117}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: SitGetUP
         m_Mode: 1
@@ -2935,62 +2947,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505862484}
   m_CullTransparentMesh: 1
---- !u!1 &558976099
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 558976101}
-  - component: {fileID: 558976100}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &558976100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558976099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 907aaa05d062c8b48893f6eedba96bf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scene_1: {fileID: 193523522}
-  scene_2: {fileID: 0}
-  scene_3: {fileID: 0}
-  scene_4: {fileID: 0}
-  scene_5: {fileID: 0}
-  scene_6: {fileID: 0}
-  scene_7: {fileID: 0}
-  scene_8: {fileID: 0}
-  scene_9: {fileID: 0}
-  scene_10: {fileID: 0}
-  scene_11: {fileID: 0}
-  scene_12: {fileID: 0}
---- !u!4 &558976101
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558976099}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1444.8009, y: 557.6314, z: -6.287882}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &599486531
 GameObject:
   m_ObjectHideFlags: 0
@@ -3210,7 +3166,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1610403117}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: Rifle
         m_Mode: 1
@@ -3538,7 +3494,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &693222519
 GameObject:
@@ -3972,7 +3928,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &857968360
 GameObject:
@@ -4058,7 +4014,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1610403117}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: GotoDoor
         m_Mode: 1
@@ -4363,7 +4319,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1610403117}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: CheckChair
         m_Mode: 1
@@ -5327,7 +5283,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1610403117}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: LayDown
         m_Mode: 1
@@ -5553,6 +5509,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585386960}
   m_CullTransparentMesh: 1
+--- !u!1 &1610403116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1610403118}
+  - component: {fileID: 1610403117}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1610403117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610403116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 907aaa05d062c8b48893f6eedba96bf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene_1: {fileID: 193523522}
+  scene_2: {fileID: 1048325285}
+  scene_3: {fileID: 112457846}
+  scene_4: {fileID: 0}
+  scene_5: {fileID: 0}
+  scene_6: {fileID: 0}
+  scene_7: {fileID: 0}
+  scene_8: {fileID: 0}
+  scene_9: {fileID: 0}
+  scene_10: {fileID: 0}
+  scene_11: {fileID: 0}
+  scene_12: {fileID: 0}
+--- !u!4 &1610403118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610403116}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1670855102
 GameObject:
   m_ObjectHideFlags: 0
@@ -5680,7 +5692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6886,7 +6898,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1610403117}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: SitGetUP
         m_Mode: 1
@@ -6949,7 +6961,7 @@ GameObject:
   - component: {fileID: 1929694179}
   - component: {fileID: 1929694178}
   m_Layer: 5
-  m_Name: toDoor
+  m_Name: RatsShoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7019,7 +7031,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1929694179}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1610403117}
+        m_TargetAssemblyTypeName: testscript, Assembly-CSharp
+        m_MethodName: shootRats
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1929694179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7734,7 +7758,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: There's nothing Here interesting
+  m_text: There's nothing interesting here
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
