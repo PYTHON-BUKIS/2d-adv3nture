@@ -5,7 +5,7 @@ using TMPro;
 
 public class testscript : MonoBehaviour
 {
-    public GameObject scene_1, scene_2, scene_3, scene_4, scene_5, scene_6, scene_7;
+    public GameObject scene_1, scene_2, scene_3, scene_4, scene_5, scene_6, scene_7, scene_8, scene_9, scene_10, scene_11, scene_12;
     //public int sanityPoints;
 
 
@@ -59,5 +59,35 @@ public class testscript : MonoBehaviour
         scene_5.SetActive(false);
         scene_6.SetActive(false);
         scene_7.SetActive(true);
+    }
+
+    public void Rifle()
+    {
+        scene_7.SetActive(false);
+        scene_8.SetActive(true);
+    }
+
+    public void Return()
+    {
+        scene_4.SetActive(true);
+        scene_6.SetActive(false);
+    }
+
+    public void NotoDoor()
+    {
+        scene_8.SetActive(false);
+        scene_9.SetActive(true);
+    }
+    
+    public void doNothing()
+    {
+        scene_9.SetActive(false);
+        scene_8.SetActive(true);
+    }
+
+    public void GotoDoor()
+    {
+        scene_8.SetActive(false);
+        scene_10.SetActive(true);
     }
 }

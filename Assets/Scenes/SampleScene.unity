@@ -245,7 +245,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 45371044}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: testscript, Assembly-CSharp
+        m_MethodName: Return
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &45371044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -637,7 +649,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 83860843}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &83860843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -822,7 +846,7 @@ RectTransform:
   - {fileID: 1505867054}
   - {fileID: 2011686124}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1273,7 +1297,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607035615}
+      - m_Target: {fileID: 558976100}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: StartButton
         m_Mode: 1
@@ -1917,7 +1941,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607035615}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: CheckDoor
         m_Mode: 1
@@ -2126,7 +2150,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 369483786}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: testscript, Assembly-CSharp
+        m_MethodName: NotoDoor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &369483786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2249,7 +2285,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607035615}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: CheckLocker
         m_Mode: 1
@@ -2383,7 +2419,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607035615}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: SitGetUP
         m_Mode: 1
@@ -2899,6 +2935,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505862484}
   m_CullTransparentMesh: 1
+--- !u!1 &558976099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 558976101}
+  - component: {fileID: 558976100}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &558976100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558976099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 907aaa05d062c8b48893f6eedba96bf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene_1: {fileID: 193523522}
+  scene_2: {fileID: 0}
+  scene_3: {fileID: 0}
+  scene_4: {fileID: 0}
+  scene_5: {fileID: 0}
+  scene_6: {fileID: 0}
+  scene_7: {fileID: 0}
+  scene_8: {fileID: 0}
+  scene_9: {fileID: 0}
+  scene_10: {fileID: 0}
+  scene_11: {fileID: 0}
+  scene_12: {fileID: 0}
+--- !u!4 &558976101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558976099}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1444.8009, y: 557.6314, z: -6.287882}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &599486531
 GameObject:
   m_ObjectHideFlags: 0
@@ -3117,7 +3209,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 630802395}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: testscript, Assembly-CSharp
+        m_MethodName: Rifle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &630802395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3434,7 +3538,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &693222519
 GameObject:
@@ -3953,7 +4057,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 857968363}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: testscript, Assembly-CSharp
+        m_MethodName: GotoDoor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &857968363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4247,7 +4363,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607035615}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: CheckChair
         m_Mode: 1
@@ -5211,7 +5327,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607035615}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: LayDown
         m_Mode: 1
@@ -5437,57 +5553,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585386960}
   m_CullTransparentMesh: 1
---- !u!1 &1607035614
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1607035616}
-  - component: {fileID: 1607035615}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1607035615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1607035614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 907aaa05d062c8b48893f6eedba96bf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scene_1: {fileID: 193523522}
-  scene_2: {fileID: 1048325285}
-  scene_3: {fileID: 112457846}
-  scene_4: {fileID: 1584085695}
-  scene_5: {fileID: 0}
-  scene_6: {fileID: 0}
-  scene_7: {fileID: 0}
---- !u!4 &1607035616
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1607035614}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 932.67664, y: 501.41702, z: 6.4871097}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1670855102
 GameObject:
   m_ObjectHideFlags: 0
@@ -6821,7 +6886,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607035615}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: testscript, Assembly-CSharp
         m_MethodName: SitGetUP
         m_Mode: 1
@@ -7028,8 +7093,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -313, y: -189}
-  m_SizeDelta: {x: 1135.1829, y: 50}
+  m_AnchoredPosition: {x: -50.1385, y: -189}
+  m_SizeDelta: {x: 1660.9058, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1935288956
 MonoBehaviour:
@@ -7051,7 +7116,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Heading to the door, there are rats blocking the exit
+  m_text: Heading to the door, there are rats blocking the exit...Shoot them?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
